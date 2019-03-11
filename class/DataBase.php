@@ -7,7 +7,7 @@ class Database
     protected $datab;
 
     //connect to db
-    public function __construct($server = 'localhost', $user = 'root', $password = 'root', $dbname = '')
+    public function __construct($server = 'localhost', $user = 'root', $password = 'root', $dbname = 'virtuagym')
     {
         $this->isConnected = true;
         try {
