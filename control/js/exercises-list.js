@@ -196,13 +196,13 @@ function addExerciseToDay(dayToBeAdded) {
         '                 Duration (in seconds)\n' +
         '             </label>\n' +
         '             <div class="col-sm-2">\n' +
-        '                 <input name="exercise[' + currentDay + '][' + exerciseNumber + '][duration]" type="number" class="form-control">\n' +
+        '                 <input required="required" name="exercise[' + currentDay + '][' + exerciseNumber + '][duration]" type="number" class="form-control">\n' +
         '             </div>\n' +
         '             <label class="col-sm-2 control-label">\n' +
         '                 Order\n' +
         '             </label>\n' +
         '             <div class="col-sm-2">\n' +
-        '                 <input name="exercise[' + currentDay + '][' + exerciseNumber + '][order]" type="number" class="form-control">\n' +
+        '                 <input required="required" name="exercise[' + currentDay + '][' + exerciseNumber + '][order]" type="number" class="form-control">\n' +
         '             </div>\n' +
         '             <button type="button" data-exercise_day="' + currentDay + '" data-current_exercise="' + exerciseNumber + '" class="btn btn-danger removeBtn">Remove\n' +
         '             </button>\n' +
