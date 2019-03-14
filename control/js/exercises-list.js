@@ -46,11 +46,9 @@ $(document).ready(function () {
 });
 
 function refresh() {
-    var workout;
     $.ajax({
             type: 'POST',
             url: '/control/get-exercises.php',
-            data: workout,
             success: function (returnedData) {
                 $('.exercises').html(returnedData);
             }
